@@ -1,10 +1,11 @@
 while True:
 
     print()
-    print("   mini-kalkulator  ")
+    print("  mini-kalkulator  ")
     print()
 
-    tall1 = int(input("legg et numer her: "))
+    numer1 = int(input("legg et numer her: "))
+
     print()
 
     operatorene = input("velg operator: ")
@@ -47,35 +48,35 @@ while True:
             break
         print()
 
-    tall2 = int(input("legg et numer her: "))
+    numer2 = int(input("legg et numer her: "))
     print()
 
     if operatorene == "+":
-        print(f"{tall1} {operatorene} {tall2} = {tall1 + tall2}")
+        print(f"{numer1} {operatorene} {numer2} = {numer1 + numer2}")
         print()
 
     elif operatorene == "-":
-        print(f"{tall1} {operatorene} {tall2} = {tall1 - tall2}")
+        print(f"{numer1} {operatorene} {numer2} = {numer1 - numer2}")
         print()
 
     elif operatorene == "*":
-        print(f"{tall1} {operatorene} {tall2} = {tall1 * tall2}")
+        print(f"{numer1} {operatorene} {numer2} = {numer1 * numer2}")
         print()
 
     elif operatorene == "%":
-        print(f"{tall1} {operatorene} {tall2} = {tall1 % tall2}")
+        print(f"{numer1} {operatorene} {numer2} = {numer1 % numer2}")
         print()
 
     elif operatorene == "**":
-        print(f"{tall1} {operatorene} {tall2} = {tall1 ** tall2}")
+        print(f"{numer1} {operatorene} {numer2} = {numer1 ** numer2}")
         print()
 
     elif operatorene == "//":
-        print(f"{tall1} {operatorene} {tall2} = {tall1 // tall2}")
+        print(f"{numer1} {operatorene} {numer2} = {numer1 // numer2}")
         print()
 
     elif operatorene == "/":
-        print(f"{tall1} {operatorene} {tall2} = {tall1 / tall2}")
+        print(f"{numer1} {operatorene} {numer2} = {numer1 / numer2}")
         print()
 
 
