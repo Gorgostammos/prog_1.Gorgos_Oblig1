@@ -1,5 +1,6 @@
 while True:
 
+    print()
     print("   mini-kalkulator  ")
     print()
 
@@ -50,31 +51,31 @@ while True:
     print()
 
     if operatorene == "+":
-        print(f"svare: {tall1 + tall2}")
+        print(f"{tall1} {operatorene} {tall2} = {tall1 + tall2}")
         print()
 
     elif operatorene == "-":
-        print(f"svare: {tall1 - tall2}")
+        print(f"{tall1} {operatorene} {tall2} = {tall1 - tall2}")
         print()
 
     elif operatorene == "*":
-        print(f"svare: {tall1 + tall2}")
+        print(f"{tall1} {operatorene} {tall2} = {tall1 * tall2}")
         print()
 
     elif operatorene == "%":
-        print(f"svare: {tall1 % tall2}")
+        print(f"{tall1} {operatorene} {tall2} = {tall1 % tall2}")
         print()
 
     elif operatorene == "**":
-        print(f"svare: {tall1 ** tall2}")
+        print(f"{tall1} {operatorene} {tall2} = {tall1 ** tall2}")
         print()
 
     elif operatorene == "//":
-        print(f"svare: {tall1 // tall2}")
+        print(f"{tall1} {operatorene} {tall2} = {tall1 // tall2}")
         print()
 
     elif operatorene == "/":
-        print(f"svare: {tall1 / tall2}")
+        print(f"{tall1} {operatorene} {tall2} = {tall1 / tall2}")
         print()
 
 
