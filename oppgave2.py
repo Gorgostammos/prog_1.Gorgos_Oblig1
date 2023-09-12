@@ -11,3 +11,4 @@ etternavn = str(input("Skriv navn ditt her: "))
 alder = int(input("Hvor gammel er du? "))
 
 print(f"Hei. Jeg heter {navn.title()} {etternavn.title()} og er {alder} år gammel" )
+
